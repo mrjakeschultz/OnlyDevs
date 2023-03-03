@@ -1,0 +1,38 @@
+[
+    {
+      "name": "James Bond",
+      "password": "secure007",
+      "email": "secretAgent@007.com",
+      "skills": ["JavaScript", "React", "Node.js"]
+    },
+    {
+      "name": "Huck Finn",
+      "password": "booksRule123",
+      "email": "huckleberry@finn.com",
+      "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Princess Peach",
+      "password": "Pe@chy",
+      "email": "p.Peach@mario.com",
+      "skills": ["Python", "Django", "HTML/CSS"]
+    },
+    {
+      "name": "Lizzie Hippo",
+      "password": "HUNGRYhungry",
+      "email": "Lippo@huhippo.com",
+      "skills": ["Ruby", "Rails", "MySQL"]
+    },
+    {
+      "name": "Superman",
+      "password": "krypton!te",
+      "email": "clark@dailynews.com",
+      "skills": ["Java", "Spring", "MongoDB"]
+    },
+    {
+      "name": "Peter Pen",
+      "password": "lostBoys4ever",
+      "email": "p.pan12@lostboys.com",
+      "skills": ["PHP", "Laravel", "MySQL"]
+    }
+  ]

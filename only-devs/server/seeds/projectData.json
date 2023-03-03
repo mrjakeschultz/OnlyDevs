@@ -1,0 +1,56 @@
+[
+    {
+      "name": "Overall My Clothes",
+      "description": "Do you have a Tanooki suit that you don't use anymore? Overall My Clothes is your one-stop shop for offloading all your old, unused clothes, costumes, and accessories!",
+      "author": "Princess Peach",
+      "skillsNeeded": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "name": "Chatter",
+      "description": "I'm trying to make something that's a mix between Twitter and WhatsApp. I've got some pretty dope ideas, I just need someone to help me flesh it out!",
+      "author": "Huck Finn",
+      "skillsNeeded": ["React", "Node.js", "GraphQL"]
+    },
+    {
+      "name": "Get In My Belly!",
+      "description": "I have an idea for a food app that is based on your current mood. Feeling under the weather? Let's get some Pho! Need a pick me up? Coffee and a kolache on the way! Hungry for more details..? Let's grab lunch and talk about it!",
+      "author": "Lizzie Hippo",
+      "skillsNeeded": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "name": "Hindr",
+      "description": "An app for the secret agent on the go! Trying to hide from the Dr. No? Use Hindr!",
+      "author": "James Bond",
+      "skillsNeeded": ["React", "Node.js", "PostgreSQL"]
+    },
+    {
+      "name": "Booth By Me",
+      "description": "Sometimes I lose phone signal, and I desperately need to make a phone call so I urgently need to phone a phone booth.. that sounds legit..right?",
+      "author": "Superman",
+      "skillsNeeded": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "name": "Rafters",
+      "description": "App for daily water sports equipment rentals. I have the equipment ready, just need to build the app. No money up front, but exposure and a chance at equity if it gets big!",
+      "author": "Huck Finn",
+      "skillsNeeded": ["React", "Node.js", "SQLite"]
+    },
+    {
+      "name": "LostNoMore",
+      "description": "A GPS app for those Lost Boys who didn't understand the simple directions of 'Second Star on the right, Straight on till morning'",
+      "author": "Peter Pan",
+      "skillsNeeded": ["React Native", "Node.js", "MongoDB"]
+    },
+    {
+      "name": "JetSet",
+      "description": "I have to travel for work constantly, and thought building an application that combs through last minute deals for empty seats on international flights based on your location would be pretty cool.",
+      "author": "James Bond",
+      "skillsNeeded": ["React Native", "Node.js", "PostgreSQL"]
+    },
+    {
+      "name": "Unvestify",
+      "description":"Imagine waking up in the unfortunate situation of not knowing how you got where you are.. and also finding that someone has pulled a Hurt Locker on you, and fitted you with a suicide vest fastened with steel padlocks. Must be a Monday, right? What if there was a way to not explode, and kill everyone around you? Look no further than 'Unvestify'! Unvestify, solving your problems since right now. Simply use our vast library of most common detonator and fuse schematics, and answer a few short questions to identify the exact explosive compound and design of your vest. Then follow our simple step-by-step instructions complete with visual aids to turn your frown upside down, and walk away a survivor. This app is the bomb!",
+      "author": "Carlos Danger",
+      "skillsNeeded": ["Swift", "EOD", "Python"]
+    }
+  ]
