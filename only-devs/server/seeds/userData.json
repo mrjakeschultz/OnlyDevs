@@ -34,5 +34,11 @@
       "password": "lostBoys4ever",
       "email": "p.pan12@lostboys.com",
       "skills": ["PHP", "Laravel", "MySQL"]
+    },
+    {
+      "name": "Carlos Danger",
+      "password": "AboveAverAge",
+      "email": "c-no-danger@boomboys.com",
+      "skills": ["C", "C++"]
     }
   ]

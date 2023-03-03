@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema({
   },
   skills: [{
     type: String,
-    enum: ['JavaScript', 'Python', 'Java', 'Ruby', 'HTML/CSS', 'React', 'Angular', 'Vue', 'Node.js', 'Express', 'Django', 'Flask', 'Spring', 'Rails', 'GraphQL', 'MongoDB', 'PostgreSQL', 'SQLite', 'React Native', 'PHP', 'Laravel', 'Swift', 'EOD']
+    enum: ['JavaScript', 'Python', 'Java', 'Ruby', 'HTML/CSS', 'React', 'Angular', 'Vue', 'Node.js', 'Express', 'Django', 'Flask', 'Spring', 'Rails', 'GraphQL', 'MongoDB', 'PostgreSQL', 'SQLite', 'React Native', 'PHP', 'Laravel', 'Swift', 'EOD', 'C', 'C++']
   }]
 });
 
