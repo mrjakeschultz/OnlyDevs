@@ -6,6 +6,7 @@ import Feed from "./components/Feed"
 import Aside from "./components/Aside"
 import SideBar from './components/Sidebar';
 import Navbar from './components/Navbar'
+import AddProject from './components/AddProject'
 
 function App() {
 return(
@@ -17,6 +18,7 @@ return(
       <Feed/>
       <Aside/>
     </Stack>
+    <AddProject/>
   </Box>
 )
 
