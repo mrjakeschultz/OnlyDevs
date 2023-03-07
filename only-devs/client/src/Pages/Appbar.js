@@ -28,7 +28,7 @@ export default function LandingPage() {
                     <Typography>
                         OnlyDevs*
                     </Typography>
-                    <Box  sx={{ borderBottom: 1}}>
+                    <Box  sx={{ }}>
 
                     <Tabs textcolor='#FFFDEA' 
                     value={value} 

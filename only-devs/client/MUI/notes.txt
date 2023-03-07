@@ -1,0 +1,117 @@
+home.js
+import React, {useState} from 'react';
+
+
+import  { AppBar, Box, Toolbar, Container, Tabs, Tab, Grid, Typography, Paper } from '@mui/material';
+
+                         
+
+/////just trying to get the skeleton sone first before the outfit
+/////palepink: #F2949C
+///// blue: #6092A6
+/////yellow: #F2B749
+/////red/pink:#F23838
+////////#000100 black
+/////white: #FFFDEA
+
+
+
+export default function LandingPage() {
+
+    const [value, setValue] = useState()
+    return (
+<>
+      
+            <AppBar MuiAppBar-positionFixed component={Paper} elevation={3}
+            sx={{  bg: '#000100'}}>
+                <Toolbar>
+                    {/* ///Typography for now but i plan on designing the logo for us */}
+                    <Typography>
+                        OnlyDevs*
+                    </Typography>
+                    <Box  sx={{ }}>
+
+                    <Tabs textcolor='#FFFDEA' 
+                    value={value} 
+                    onclick={(e, value)=> setValue(value) } 
+                    indicatorColor=''>
+                        <Tab  label="🪺 Home"/>
+                        <Tab  label="👋 About Us"/>
+                        <Tab  label="💖🔥 Projects"/>
+                        <Tab  label="💻 Devs"/>
+                    </Tabs>
+                        </Box>
+
+                    <button sx={{ marginLeft: 'auto'}} variant="contained">SignIn  {''}</button>
+                    <button sx={{ marginLeft: '8px'}}  variant="contained">SignUp</button>
+                </Toolbar>
+
+            </AppBar>
+        
+            </>
+
+        
+    )
+}
+
+
+    //     <Paper  sx={{
+    //         mt: '200px'
+    //     }}
+    //     variant= 'outlined' square elevation={3}>
+    // <div sx={{
+    //     display: 'flex'
+    //  }}> 
+    //  <ul>
+    //     <li> fuck you, mui can suck dinky</li>
+    //  </ul>
+
+    //  </div>
+
+    //     </Paper>
+
+
+
+    app.js
+
+
+
+    import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
+
+import Home from './Pages/Home';
+import Hero from './Pages/Hero';
+// import Login from './Pages/Login';
+// import Signup from './Pages/Signup';
+
+
+const client = new ApolloClient({
+  uri: '/graphql',
+  cache: new InMemoryCache(),
+});
+
+function App() {
+  return (
+   <ApolloProvider client={client}>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/login" element={<Login />} /> */}
+          <Route path="/hero" element={<Hero/>} />
+          <Route path="/home" element={<Home/>} />
+          {/* <Route path="/hero" element={<Hero/>} /> */}
+          {/* <Route path="/signup" element={<Signup />} /> */}
+        </Routes>
+      </Router> 
+   
+   </ApolloProvider> 
+  );
+}
+
+export default App;
+
+
+
+
+
