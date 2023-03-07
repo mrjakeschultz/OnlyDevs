@@ -1,5 +1,5 @@
-const User = require('./models/user');
-const Project = require('./models/project');
+const User = require('./User');
+const Project = require('./Project');
 
 module.exports = {
   User,
