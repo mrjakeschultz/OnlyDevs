@@ -20,7 +20,7 @@ const projectSchema = new mongoose.Schema({
   },
   skillsNeeded: [{
     type: String,
-    enum: ['JavaScript', 'Python', 'Java', 'Ruby', 'HTML/CSS', 'React', 'Angular', 'Vue', 'Node.js', 'Express', 'Django', 'Flask', 'Spring', 'Rails', 'GraphQL', 'MongoDB', 'PostgreSQL', 'SQLite', 'React Native', 'PHP', 'Laravel', 'EOD', 'Swift']
+    enum: ['JavaScript', 'Python', 'Java', 'Ruby', 'HTML/CSS', 'React', 'Angular', 'Vue', 'Node.js', 'Express', 'Django', 'Flask', 'Spring', 'Rails', 'GraphQL', 'MongoDB', 'PostgreSQL', 'SQLite', 'React Native', 'PHP', 'Laravel', 'EOD', 'Swift', 'C', 'C++']
   }]
 });
 
