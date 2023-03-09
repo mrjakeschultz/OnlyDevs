@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Button,
   Box,
   Card,
   CardHeader,
@@ -17,8 +18,8 @@ const Project = () => {
       <Card sx={{margin:5}}>
         <CardHeader
           avatar={
-            <Avatar sx={{ bgcolor: "#F23838" }} aria-label="recipe">
-              RU
+            <Avatar sx={{ bgcolor: "#F23838" }} aria-label="project">
+              C
             </Avatar>
           }
           action={<IconButton aria-label="settings"></IconButton>}
@@ -35,14 +36,15 @@ const Project = () => {
         />
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-            THIS IS A STARTER CODE THAT DOES STARTER STUFF. FUCK UHM I NEED SOME
-            STRONG BACKENDERS TO HOLD...I MEAN HELP ME. UWU
+            THIS IS A STARTER CODE THAT DOES STARTER STUFF. UHM I NEED SOME
+            STRONG BACK-ENDERS TO HOLD...I MEAN HELP ME. UWU
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
           <IconButton aria-label="add to favorites"></IconButton>
           <IconButton aria-label="share"></IconButton>
         </CardActions>
+        <Button variant="text">COLLABORATE 🤝 </Button>
       </Card>
     </Box>
   );
