@@ -80,7 +80,7 @@ const UserBox = styled("Box")(({theme})=> ({
                     <Button>🔔</Button>
                     <Button>✉️</Button>
                     </IconsBtns>
-                    <Avatar sx={{ width: '30px', height: '30px', bgcolor:'#F23838' }}>FK</Avatar>
+                    <Avatar sx={{ width: '30px', height: '30px', bgcolor:'#F23838' }}>K</Avatar>
 
                     <Button sx={{display: {xs:'none'}}} variant="contained">Logout</Button>
                 </StyledToolBar>

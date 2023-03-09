@@ -8,7 +8,7 @@ import Feed from "./components/Feed"
 import Aside from "./components/Aside"
 import SideBar from './components/Sidebar';
 import Navbar from './components/Navbar'
-import AddProject from './components/AddProject'
+
 import Signup from './Pages/Signup';
 import Login from './Pages/Login';
 
@@ -33,7 +33,7 @@ return (
             <Feed />
             <Aside />
           </Stack>
-          <AddProject />
+          
         </Box>
       </Router>
     </ApolloProvider>

@@ -112,6 +112,37 @@ function App() {
 export default App;
 
 
+//////////////////////////////////////// custom button// /////////////////////////////////
+const CustomButton1 = styled(Button)(({theme})=>({
+//   backgroundColor: '#F2B749',
+// margin: 5,
+// color: '#FFFDEA',
+// '&:hover': {
+// backgroundColor:'#F2949C'
+// },
+// "&:disabled": {
+// backgroundColor: 'gray',
+// color: 'white'
+// },
+// }))
+// return (
+//   <div>
+// <Button variant="text">Text</Button>
+// <Button 
 
+// variant="contained" color="primary">Create New Project</Button>
+// <Button variant="contained" color="secondary">SignUp</Button>
+
+// <Button variant="outlined">SignIn</Button>
+// {
+// /* There is already an h1 in the page, let's not duplicate it. */
+// }
+// <Typography variant="h1" component="h2">
+// h1. Heading
+// </Typography>;
+// <CustomButton1>wtf</CustomButton1>
+
+//   </div>
+// )
 
 

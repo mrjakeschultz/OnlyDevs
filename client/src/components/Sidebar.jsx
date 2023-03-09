@@ -35,13 +35,15 @@ const Sidebar = () => {
       flex={1}
       p={2}
       sx={{
-        background: '',
+        background: '#F4CE45',
         display: { xs: "none", sm: "block" },
+       
       }}
     >
-      <Box position="fixed">
+      <Box  
+      position="fixed">
         <List>
-          <ListItem sx={{background:'#F4CE45'}}  disablePadding>
+          <ListItem sx={{background:''}}  disablePadding>
             <ListItemButton component="a" href="/">
               <Button >🏠</Button>
               <ListItemText  primary="Home Page" />
@@ -53,13 +55,20 @@ const Sidebar = () => {
               <ListItemText primary="Projects" />
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
+          <ListItem sx={{background: '',
+            borderRadius: '16px',
+           
+            }}  disablePadding>
             <ListItemButton component="a" href="#simple-list">
-              <Button>🧠</Button>
+              <Button 
+              >🧠</Button>
               <ListItemText primary="Devs" />
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
+          <ListItem  sx={{background: '',
+            borderRadius: '16px',
+           
+            }}  disablePadding>
             <ListItemButton component="a" href="#simple-list">
               <Button>🪪</Button>
               <ListItemText primary="Profile" />

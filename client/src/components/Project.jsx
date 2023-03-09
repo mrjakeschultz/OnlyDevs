@@ -18,7 +18,7 @@ const Project = () => {
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: "#F23838" }} aria-label="recipe">
-              RU
+              C
             </Avatar>
           }
           action={<IconButton aria-label="settings"></IconButton>}

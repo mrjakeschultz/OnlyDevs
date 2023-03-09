@@ -6,7 +6,7 @@ import {Box, Typography, Avatar, AvatarGroup} from '@mui/material'
 const Aside  = () => {
     return(
         <Box flex={2} p={2} sx={{
-            display: {xs: "none", sm:'block'}}}>
+            display: {xs: "none",  sm:'block'}}}>
                <Box position="fixed">
 <Typography variant="h6" fontWeight={100}>
     Collaborators
