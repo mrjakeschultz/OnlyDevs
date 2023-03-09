@@ -1,7 +1,11 @@
 import { React, useState } from "react";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
+import FormLabel from '@mui/material/FormLabel';
 import FormControl from "@mui/material/FormControl";
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 import Select, { SelectChangeEvent } from "@mui/material/Select";
 import AddIcon from "@mui/icons-material/Add";
 import {
@@ -31,7 +35,26 @@ const Sidebar = () => {
     alignItems: "center",
     justifyContent: "center",
   });
+ const  [state, setState] = useState(({
+  Javascript: false, Python: false, MySQL: false, Java: false,
+  Go: false, Ruby: false, C: false, TypeScript: false,
+   Kotlin: false, PHP: false, Matlab: false, NoSQL: false,
+   HTML: false, CSS: false, MongoDB: false, Swift: false,
+   Scala: false, Rust: false, Perl: false,
+ }))
+
+ const handleChange = (event:React.ChangeEvent<HTMLInputElement>) => {
+  setState({
+    ...state,
+    [event.target.name]:  event.target.checked,
+  })
+ }
  
+ const {Javascript, Python, HTML, CSS, 
+  Swift, MongoDB, MySQL, Java, Go, C, 
+  Ruby, Kotlin, TypeScript, PHP, NoSQL, 
+  Matlab, Rust, Perl, Scala,} = state;
+
   const [open, setOpen] = useState(false);
   // const [language, setLanguage] = useState('');
 
@@ -122,7 +145,7 @@ const Sidebar = () => {
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >
-          <Box width={800} height={380} p={3} borderRadius={5} bgcolor="white">
+          <Box width={800} height={480} p={3} borderRadius={5} bgcolor="white">
             <Typography variant="h6" color="gray" textAlign="center">
               {" "}
               Create New 💖🔥Project!
@@ -140,42 +163,134 @@ const Sidebar = () => {
               label="Description"
               variant="standard"
             />
-            <FormControl
-              fullWidth
-              sx={{
-                mt: 2,
-              }}
-            >
-              <InputLabel id="language-dropdown">Languages</InputLabel>
-              <Select
-                id="select-languages"
-                // value={Language}
-                // label="Language"
-                // onChange={handleChange}
-              >
-                <MenuItem value={1}>Javascript</MenuItem>
-                <MenuItem value={2}>Python</MenuItem>
-                <MenuItem value={3}>Java</MenuItem>
-                <MenuItem value={4}>Go</MenuItem>
-                <MenuItem value={5}>Kotlin</MenuItem>
-                <MenuItem value={6}>PHP</MenuItem>
-                <MenuItem value={7}>C#</MenuItem>
-                <MenuItem value={8}>Swift</MenuItem>
-                <MenuItem value={9}>R</MenuItem>
-                <MenuItem value={10}>Ruby</MenuItem>
-                <MenuItem value={11}>C and C ++</MenuItem>
-                <MenuItem value={12}>Matlab</MenuItem>
-                <MenuItem value={13}>TypeScript</MenuItem>
-                <MenuItem value={14}>Scala</MenuItem>
-                <MenuItem value={15}>SQL</MenuItem>
-                <MenuItem value={16}>HTML</MenuItem>
-                <MenuItem value={17}>CSS</MenuItem>
-                <MenuItem value={18}>NoSQL</MenuItem>
-                <MenuItem value={19}>Rust</MenuItem>
-                <MenuItem value={20}>Perl</MenuItem>
-              </Select>
-            </FormControl>
-
+         <Box fullWidth sx={{display: 'flex', mt:2}}>
+        <FormLabel component="legend">Languages</FormLabel>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Checkbox checked={Javascript} onChange={handleChange} name="javascript" />
+            }
+            label="JavaScript"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={Python} onChange={handleChange} name="python" />
+            }
+            label="Python"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={PHP} onChange={handleChange} name="php" />
+            }
+            label="PHP"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={MySQL} onChange={handleChange} name="mySQL" />
+            }
+            label="MySQL"
+            />
+        </FormGroup>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Checkbox checked={C} onChange={handleChange} name="c" />
+            }
+            label="C"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={Java} onChange={handleChange} name="java" />
+            }
+            label="Java"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={Go} onChange={handleChange} name="go" />
+            }
+            label="Go"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={Ruby} onChange={handleChange} name="ruby" />
+            }
+            label="Ruby"
+            />
+        </FormGroup>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Checkbox checked={Kotlin} onChange={handleChange} name="kotlin" />
+            }
+            label="Kotlin"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={TypeScript} onChange={handleChange} name="typescript" />
+            }
+            label="TypeScript"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={Matlab} onChange={handleChange} name="Matlab" />
+            }
+            label="Matlab"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={NoSQL} onChange={handleChange} name="NoSQL" />
+            }
+            label="NoSQL"
+            />
+        </FormGroup>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Checkbox checked={Swift} onChange={handleChange} name="swift" />
+            }
+            label="Swift"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={MongoDB} onChange={handleChange} name="mongoDB" />
+            }
+            label="MongoDB"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={HTML} onChange={handleChange} name="HTML" />
+            }
+            label="HTML"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={CSS} onChange={handleChange} name="css" />
+            }
+            label="CSS"
+            />
+        </FormGroup>
+        <FormGroup>
+         
+          <FormControlLabel
+            control={
+              <Checkbox checked={Scala} onChange={handleChange} name="scala" />
+            }
+            label="Scala"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={Perl} onChange={handleChange} name="perl" />
+            }
+            label="Perl"
+            />
+          <FormControlLabel
+            control={
+              <Checkbox checked={Rust} onChange={handleChange} name="rust" />
+            }
+            label="Rust"
+            />
+        </FormGroup>
+            </Box>    
             <ButtonGroup
               sx={{ mt: 2 }}
               fullWidth
@@ -193,3 +308,6 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+
+
+
