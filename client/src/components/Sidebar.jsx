@@ -52,7 +52,7 @@ const Sidebar = () => {
         <List>
           <ListItem sx={{ background: "" }} disablePadding>
             <ListItemButton component="a" href="/">
-              <Button>🏠</Button>
+              <Button>🤍</Button>
               <ListItemText primary="Home Page" />
             </ListItemButton>
           </ListItem>
@@ -93,8 +93,14 @@ const Sidebar = () => {
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
+            <ListItemButton component="a" href="/signup">
+              <Button>{/* ⚙️ */}</Button>
+              <ListItemText primary="Logout" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
             <ListItemButton component="a" href="#simple-list">
-              <Button>🌚</Button>
+              <Button>👀</Button>
               <Switch />
             </ListItemButton>
           </ListItem>

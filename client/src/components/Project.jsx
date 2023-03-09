@@ -36,7 +36,7 @@ const Project = () => {
         />
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-            THIS IS A STARTER CODE THAT DOES STARTER STUFF. FUCK UHM I NEED SOME
+            THIS IS A STARTER CODE THAT DOES STARTER STUFF. UHM I NEED SOME
             STRONG BACK-ENDERS TO HOLD...I MEAN HELP ME. UWU
           </Typography>
         </CardContent>
