@@ -33,7 +33,7 @@ https://excalidraw.com/#json=NJiTM91oO0eUqWYoZ-wYP,Z8B4oNrOfO-Usr9gzEs-nQ
 
 If you have any questions or comments please feel free to email our team. And if you'd like to see what we've been working on, please view our personal repositories.
 
-Email Khi-Lee Warner at [khiaotic@gmail.com](mailto:khiaotic@gmail.com), or view  Khiaotic's [Github](https://github.com/Khiaotic)
+Email Khi Warner at [khiaotic@gmail.com](mailto:khiaotic@gmail.com), or view  Khiaotic's [Github](https://github.com/Khiaotic)
 
 Email Jake Sadowski at [jasadowski7@gmail.com](mailto:jakes@gmail.com), or view JSadowski7's [Github](https://github.com/jsadowski7)
 
