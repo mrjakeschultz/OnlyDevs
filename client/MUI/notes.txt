@@ -112,6 +112,62 @@ function App() {
 export default App;
 
 
+//////////////////////////////////////// custom button// /////////////////////////////////
+const CustomButton1 = styled(Button)(({theme})=>({
+//   backgroundColor: '#F2B749',
+// margin: 5,
+// color: '#FFFDEA',
+// '&:hover': {
+// backgroundColor:'#F2949C'
+// },
+// "&:disabled": {
+// backgroundColor: 'gray',
+// color: 'white'
+// },
+// }))
+// return (
+//   <div>
+// <Button variant="text">Text</Button>
+// <Button 
+
+// variant="contained" color="primary">Create New Project</Button>
+// <Button variant="contained" color="secondary">SignUp</Button>
+
+// <Button variant="outlined">SignIn</Button>
+// {
+// /* There is already an h1 in the page, let's not duplicate it. */
+// }
+// <Typography variant="h1" component="h2">
+// h1. Heading
+// </Typography>;
+// <CustomButton1>wtf</CustomButton1>
+
+//   </div>
+// )
 
 
+///////////////////////////////aside stringify avatar names regexto icon avatar
+   function stringToColor(string: string) {
+    let hash =0;
+    let i;
 
+    for (i = 0; i <string.length; i += 1) {
+        hash = string.charCodeAt(i) + ((hash << 5)) - hash;
+    }
+    let color = '#';
+for (i = 0; i < 3; i +=1) {
+    const value = (hash >> (i * 8)) & 0xff;
+    color += '00${value.toString(16)}'.slice(-2);
+}
+return color;
+}
+
+function stringAvatar(name: string) {
+    return {
+        sx: {
+            bgcolor: stringToColor(name),
+        },
+        children: `${name.split(' ')[0][0]}${name.split(' ')[1][0]}`,
+    }
+}
+   

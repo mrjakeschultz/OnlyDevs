@@ -58,7 +58,7 @@ const UserBox = styled("Box")(({theme})=> ({
             <AppBar position='stick' component={Paper} elevation={3}
             sx={{  bg: '#000100'}}>
                 <StyledToolBar>
-                    {/* ///Typography for now but i plan on designing the logo for us */}
+                    {/* ////Typography for now but i plan on designing the logo for us */}
                     <Typography sx={{display: {xs:'none', sm:'block'}}}>
                         OnlyDevs*
                     </Typography>
@@ -80,7 +80,7 @@ const UserBox = styled("Box")(({theme})=> ({
                     <Button>🔔</Button>
                     <Button>✉️</Button>
                     </IconsBtns>
-                    <Avatar sx={{ width: '30px', height: '30px', bgcolor:'#F23838' }}>FK</Avatar>
+                    <Avatar sx={{ width: '30px', height: '30px', bgcolor:'#F23838' }}>K</Avatar>
 
                     <Button sx={{display: {xs:'none'}}} variant="contained">Logout</Button>
                 </StyledToolBar>
