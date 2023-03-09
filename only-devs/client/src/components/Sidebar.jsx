@@ -37,25 +37,25 @@ const Sidebar  = () => {
           <ListItem disablePadding>
             <ListItemButton component='a' href="#simple-list">
               <Button>
-              🤝
-              </Button>
-              <ListItemText primary="Collaborators" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component='a' href="#simple-list">
-              <Button>
               🪪
               </Button>
               <ListItemText primary="Profile" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component='a' href="#simple-list">
+            <ListItemButton component='a' href="/login">
               <Button>
-              ⚙️
+              {/* 🤝 */}
               </Button>
-              <ListItemText primary="Settings" />
+              <ListItemText primary="Login" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
+            <ListItemButton component='a' href="/signup">
+              <Button>
+              {/* ⚙️ */}
+              </Button>
+              <ListItemText primary="Sign Up" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
