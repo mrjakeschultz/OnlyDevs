@@ -22,18 +22,10 @@ type Project {
 		author: String!
 		skillsNeeded: String!
 	}
-
-type GetProjects {
-		projects {
-			id
-			name
-			description
-			author {
-				id
-				name
-			}
-			skillsNeeded
-		}
+	
+type Auth {
+	token: ID!
+	user: User
 	}
   
   type Mutation {
