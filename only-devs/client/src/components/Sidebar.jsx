@@ -11,7 +11,7 @@ const Sidebar  = () => {
 
          <List>
           <ListItem disablePadding>
-            <ListItemButton component='a' href="#home">
+            <ListItemButton component='a' href="/">
               <Button>
               🏠
               </Button>
