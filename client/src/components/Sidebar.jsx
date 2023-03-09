@@ -44,7 +44,7 @@ const Sidebar = () => {
           <ListItem sx={{background:'#F4CE45'}}  disablePadding>
             <ListItemButton component="a" href="/">
               <Button >🏠</Button>
-              <ListItemText primary="HomePage" />
+              <ListItemText  primary="Home Page" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
