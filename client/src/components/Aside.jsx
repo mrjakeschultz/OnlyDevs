@@ -12,7 +12,7 @@ const Aside  = () => {
     Collaborators
 </Typography>
 <AvatarGroup max={8}>
-  <Avatar alt="PythonCutie" src="" />
+  <Avatar alt="PythonCutie" src=""/>
   <Avatar alt="YoYo" src="" />
   <Avatar alt="CoderCrush" src="" />
   <Avatar alt="StackDatBooty" src="" />
