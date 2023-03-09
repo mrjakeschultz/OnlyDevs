@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useState} from 'react';
 import {Button, styled, Box, Typography} from '@mui/material'
 import { Stack } from '@mui/system';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -11,6 +11,7 @@ import Navbar from './components/Navbar'
 
 import Signup from './Pages/Signup';
 import Login from './Pages/Login';
+// import { createTheme, ThemeProvider } from '@mui/material';
 
 const client = new ApolloClient({
   uri: '/graphql',
@@ -18,8 +19,20 @@ const client = new ApolloClient({
 });
 
 function App() {
+
+  //////DARK MODE/////////////////////////
+// const [mode, setMode] =useState('light')
+
+  // const darkTheme = createTheme ({
+  //   palette:{
+  //     mode: mode
+  //   }
+  // })
+  ////////END Of DARK MODE////////////////
 return (
   <>
+  
+
     <ApolloProvider client={client}>
       <Router>
         <Routes>
@@ -35,6 +48,7 @@ return (
           </Stack>
           
         </Box>
+
       </Router>
     </ApolloProvider>
   </>
@@ -46,10 +60,10 @@ export default App;
 
 
 // const CustomButton1 = styled(Button)(({theme})=>({
-//   backgroundColor: '#F2B749',
-// margin: 5,
-// color: '#FFFDEA',
-// '&:hover': {
+  //   backgroundColor: '#F2B749',
+  // margin: 5,
+  // color: '#FFFDEA',
+  // '&:hover': {
 // backgroundColor:'#F2949C'
 // },
 // "&:disabled": {
