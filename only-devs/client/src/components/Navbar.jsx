@@ -69,10 +69,8 @@ const UserBox = styled("Box")(({theme})=> ({
                     value={value} 
                     onclick={(e, value)=> setValue(value) } 
                     indicatorColor=''>
-                        <Tab sx={{color: 'white', display: {xs:'none', sm:'block'}}} label="💖 Home"/>
-                        <Tab sx={{color: 'white',display: {xs:'none', sm:'block'}}} label="👋 About Us"/>
-                        <Tab  sx={{color: 'white',display: {xs:'none', sm:'block'}}}label="🔥 Projects"/>
-                        <Tab  sx={{color: 'white',display: {xs:'none', sm:'block'}}}label="💻 Devs"/>
+                        <Tab sx={{color: 'white', display: {xs:'none', sm:'block'}}} label="Login"/>
+                        <Tab sx={{color: 'white',display: {xs:'none', sm:'block'}}} label="Sign Up"/>
                     </Tabs>
                         </Box>
                     <Search><InputBase placeholder="🔍"/></Search>
