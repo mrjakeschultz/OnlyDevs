@@ -44,7 +44,7 @@ const Sidebar = () => {
    Scala: false, Rust: false, Perl: false,
  });
 
-
+////this should be the part that changes the state of checkboxes
  const handleChange = (event) => {
   setState({
     ...state,
