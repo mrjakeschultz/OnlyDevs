@@ -6,7 +6,7 @@ import FormControl from "@mui/material/FormControl";
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import Select, { SelectChangeEvent } from "@mui/material/Select";
+// import Select, { SelectChangeEvent } from "@mui/material/Select";
 import AddIcon from "@mui/icons-material/Add";
 import {
   Tooltip,
@@ -35,20 +35,22 @@ const Sidebar = () => {
     alignItems: "center",
     justifyContent: "center",
   });
- const  [state, setState] = useState(({
+
+ const [state, setState] = useState({
   Javascript: false, Python: false, MySQL: false, Java: false,
   Go: false, Ruby: false, C: false, TypeScript: false,
    Kotlin: false, PHP: false, Matlab: false, NoSQL: false,
    HTML: false, CSS: false, MongoDB: false, Swift: false,
    Scala: false, Rust: false, Perl: false,
- }))
+ });
 
- const handleChange = (event:React.ChangeEvent<HTMLInputElement>) => {
+////this should be the part that changes the state of checkboxes butttt
+ const handleChange = (event) => {
   setState({
     ...state,
     [event.target.name]:  event.target.checked,
-  })
- }
+  });
+ };
  
  const {Javascript, Python, HTML, CSS, 
   Swift, MongoDB, MySQL, Java, Go, C, 
