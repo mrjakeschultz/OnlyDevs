@@ -2,10 +2,11 @@
 
 ## Table of Contents
 
-* [User Story](#user-story)
-* [Description](#description)
-* [Wire Frame](#wire-frame)
-* [Questions / Contact](#questions--contact)
+- [User Story](#user-story)
+- [Description](#description)
+- [Wire Frame](#wire-frame)
+- [How To Use](#how-to-use)
+- [Questions / Contact](#questions--contact)
 
 ## User Story
 
@@ -26,14 +27,23 @@ As recent graduates we know what it's like to not feel like you have a portfolio
 Users of all skill levels can post project descriptions and a list of skills needed to help their dream projects come to fruition!
 
 ## Wire Frame
+
 https://excalidraw.com/#json=NJiTM91oO0eUqWYoZ-wYP,Z8B4oNrOfO-Usr9gzEs-nQ
 
+## How To Use
+
+This app is live.
+[Check it out!](https://onlydevs.herokuapp.com/)
+
+1. Sign up and login.
+2. Browse the projects and find your next collaboration opportunity.
+3. Get coding!
 
 ## Questions / Contact
 
 If you have any questions or comments please feel free to email our team. And if you'd like to see what we've been working on, please view our personal repositories.
 
-Email Khi Warner at [khiaotic@gmail.com](mailto:khiaotic@gmail.com), or view  Khiaotic's [Github](https://github.com/Khiaotic)
+Email Khi Warner at [khiaotic@gmail.com](mailto:khiaotic@gmail.com), or view Khiaotic's [Github](https://github.com/Khiaotic)
 
 Email Jake Sadowski at [jasadowski7@gmail.com](mailto:jakes@gmail.com), or view JSadowski7's [Github](https://github.com/jsadowski7)
 
