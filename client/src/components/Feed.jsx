@@ -8,10 +8,6 @@ const Feed  = () => {
     return(
         <Box flex={4} p={2}>
       <Project/>
-      <Project/>
-      <Project/>
-      <Project/>
-      <Project/>
         </Box>
     )
 }
